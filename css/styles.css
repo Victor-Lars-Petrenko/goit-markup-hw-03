@@ -78,11 +78,6 @@ img {
     padding: 0 15px;
 }
 
-.section {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -129,10 +124,10 @@ img {
 
 .navigation-link {
     color: var(--navyblue);
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        padding: 24px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .navigation-link:hover,
@@ -140,7 +135,7 @@ img {
     color: var(--ocean);
 }
 
-.contacts{
+.contacts {
     font-style: normal;
 }
 
@@ -148,6 +143,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    color: inherit;
 }
 
 .contact:hover,
@@ -162,47 +158,47 @@ img {
 
 .hero-title {
     color: var(--white);
-        text-align: center;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        max-width: 496px;
-        margin-bottom: 48px;
-        margin-right: auto;
-        margin-left: auto;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-btn {
     display: block;
-        background-color: var(--iris);
-        color: var(--white);
-        font-size: inherit;
-        font-family: inherit;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        border-radius: 4px;
-        border: none;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 16px 32px;
-        min-width: 169px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: var(--iris);
+    color: var(--white);
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    min-width: 169px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-        background: var(--ocean);
+    background: var(--ocean);
 }
 
 .item-title {
     color: var(--navyblue);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .item-title.advantage {
@@ -230,13 +226,13 @@ img {
 
 .section-title {
     color: var(--navyblue);
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        margin-bottom: 72px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .section-actions {
@@ -300,9 +296,9 @@ img {
 
 .footer-text {
     color: var(--cloud);
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
 }
 
 .section-portfolio {
@@ -314,14 +310,14 @@ img {
     background-color: var(--cloud);
     border-radius: 4px;
     padding: 12px 24px;
-        border: 1px solid var(--cornflower);
-        text-align: center;
-        font-size: inherit;
-        font-family: inherit;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
+    border: 1px solid var(--cornflower);
+    text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .portfolio-btn:hover,
@@ -353,7 +349,7 @@ img {
     margin-bottom: 8px;
 }
 
-.card-text { 
+.card-text {
     padding: 32px 16px;
     border-bottom: 1px solid var(--cornflower);
     border-left: 1px solid var(--cornflower);
